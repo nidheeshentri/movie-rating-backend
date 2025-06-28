@@ -23,7 +23,7 @@ const port = 3000
 var cors = require('cors')
 
 var corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://movie-rating-snowy-six.vercel.app',
 }
 
 app.use(cors(corsOptions))
